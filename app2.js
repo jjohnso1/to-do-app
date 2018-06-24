@@ -2,6 +2,7 @@ function onReady() {
   const addToDoForm = document.getElementById('newToDoForm');
   const newToDoText = document.getElementById('newToDoText');
   const toDoList = document.getElementById('toDoList');
+  const delete = document.getElementById('delete')
 
   addToDoForm.addEventListener('submit', () => {
       event.preventDefault();
@@ -22,6 +23,9 @@ function onReady() {
 
       newToDoText.value = '';
   });
+
+  delete.addEventListener("reset", function(){}[ b])
+
   }
 
 
